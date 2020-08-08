@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 100ms ease-in-out;
+}
+
+:root .App[class~='light-theme']{
+    --primary-color: #EDF2F7;
+    --secondary-color: white;
+    --font-color: #1A202C;
+    --danger-color: #ED2939;
+  }
+  
+  :root .App[class~='dark-theme']{
+    --primary-color: #1A202C;
+    --secondary-color: #2D3748;
+    --font-color: white;
+    --danger-color: #7C0A02;
+}
